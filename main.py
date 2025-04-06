@@ -18,5 +18,5 @@ def get_greeting(name: str) -> str:
 
 @mcp.prompt()
 def translation_ja(txt: str) -> str:
-    """Translation to Japanese prompt"""
+    """Translating to Japanese"""
     return f"Please translate this sentence into Japanese:\n\n{txt}"
